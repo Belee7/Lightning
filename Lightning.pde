@@ -11,7 +11,7 @@ background(0);
 }
 void draw()
 {
-stroke((int)(Math.random() * 256),(int)(Math.random() * 256),(int)(Math.random() * 256));
+stroke(204,255,255);
   while(endY < 500)
   {
   endX = startX + (int)(Math.random() * 20) - 10;
@@ -19,6 +19,7 @@ stroke((int)(Math.random() * 256),(int)(Math.random() * 256),(int)(Math.random()
   line(startX,startY,endX,endY);
   startX = endX;
   startY = endY;
+  
   }
 }
 void mousePressed()
@@ -27,5 +28,6 @@ startX = 250;
 startY = 0;
 endX = 50;
 endY = 0;
+background(255,255,255);
 
 }
