@@ -28,6 +28,7 @@ startX = 250;
 startY = 0;
 endX = 50;
 endY = 0;
-background(255,255,255);
+background(0);
 
 }
+
